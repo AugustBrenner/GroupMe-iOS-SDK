@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SRWebSocket.h"
+#import "GMConstants.h"
+#import "JSONKit.h"
 
-@interface GMViewController : UIViewController
+@interface GMViewController : UIViewController <SRWebSocketDelegate>
 
 @end

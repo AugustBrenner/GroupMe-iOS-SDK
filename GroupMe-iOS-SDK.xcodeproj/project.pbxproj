@@ -21,6 +21,14 @@
 		94BFAA541891BF50004E273A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BFAA361891BF50004E273A /* UIKit.framework */; };
 		94BFAA5C1891BF50004E273A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 94BFAA5A1891BF50004E273A /* InfoPlist.strings */; };
 		94BFAA5E1891BF50004E273A /* GroupMe_iOS_SDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFAA5D1891BF50004E273A /* GroupMe_iOS_SDKTests.m */; };
+		94BFAA721891BFDB004E273A /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFAA691891BFDB004E273A /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		94BFAA731891BFDB004E273A /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 94BFAA6B1891BFDB004E273A /* base64.c */; };
+		94BFAA741891BFDB004E273A /* NSData+SRB64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFAA6E1891BFDB004E273A /* NSData+SRB64Additions.m */; };
+		94BFAA751891BFDB004E273A /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFAA711891BFDB004E273A /* SRWebSocket.m */; };
+		94BFAA771891C049004E273A /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BFAA761891C049004E273A /* libicucore.dylib */; };
+		94BFAA791891C05A004E273A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BFAA781891C05A004E273A /* CFNetwork.framework */; };
+		94BFAA7B1891C062004E273A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94BFAA7A1891C062004E273A /* Security.framework */; };
+		94BFAA7E1891C19E004E273A /* GMConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 94BFAA7D1891C19E004E273A /* GMConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,20 @@
 		94BFAA591891BF50004E273A /* GroupMe-iOS-SDKTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GroupMe-iOS-SDKTests-Info.plist"; sourceTree = "<group>"; };
 		94BFAA5B1891BF50004E273A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		94BFAA5D1891BF50004E273A /* GroupMe_iOS_SDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupMe_iOS_SDKTests.m; sourceTree = "<group>"; };
+		94BFAA681891BFDB004E273A /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		94BFAA691891BFDB004E273A /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		94BFAA6B1891BFDB004E273A /* base64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
+		94BFAA6C1891BFDB004E273A /* base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		94BFAA6D1891BFDB004E273A /* NSData+SRB64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+SRB64Additions.h"; sourceTree = "<group>"; };
+		94BFAA6E1891BFDB004E273A /* NSData+SRB64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+SRB64Additions.m"; sourceTree = "<group>"; };
+		94BFAA6F1891BFDB004E273A /* SocketRocket-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-Prefix.pch"; sourceTree = "<group>"; };
+		94BFAA701891BFDB004E273A /* SRWebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRWebSocket.h; sourceTree = "<group>"; };
+		94BFAA711891BFDB004E273A /* SRWebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRWebSocket.m; sourceTree = "<group>"; };
+		94BFAA761891C049004E273A /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		94BFAA781891C05A004E273A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		94BFAA7A1891C062004E273A /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		94BFAA7C1891C19E004E273A /* GMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMConstants.h; sourceTree = "<group>"; };
+		94BFAA7D1891C19E004E273A /* GMConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +82,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94BFAA7B1891C062004E273A /* Security.framework in Frameworks */,
+				94BFAA791891C05A004E273A /* CFNetwork.framework in Frameworks */,
+				94BFAA771891C049004E273A /* libicucore.dylib in Frameworks */,
 				94BFAA351891BF4F004E273A /* CoreGraphics.framework in Frameworks */,
 				94BFAA371891BF50004E273A /* UIKit.framework in Frameworks */,
 				94BFAA331891BF4F004E273A /* Foundation.framework in Frameworks */,
@@ -86,6 +111,8 @@
 				94BFAA571891BF50004E273A /* GroupMe-iOS-SDKTests */,
 				94BFAA311891BF4F004E273A /* Frameworks */,
 				94BFAA301891BF4F004E273A /* Products */,
+				94BFAA671891BFDB004E273A /* JSONKit */,
+				94BFAA6A1891BFDB004E273A /* SocketRocket */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +128,9 @@
 		94BFAA311891BF4F004E273A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				94BFAA7A1891C062004E273A /* Security.framework */,
+				94BFAA781891C05A004E273A /* CFNetwork.framework */,
+				94BFAA761891C049004E273A /* libicucore.dylib */,
 				94BFAA321891BF4F004E273A /* Foundation.framework */,
 				94BFAA341891BF4F004E273A /* CoreGraphics.framework */,
 				94BFAA361891BF50004E273A /* UIKit.framework */,
@@ -117,6 +147,8 @@
 				94BFAA441891BF50004E273A /* Main.storyboard */,
 				94BFAA471891BF50004E273A /* GMViewController.h */,
 				94BFAA481891BF50004E273A /* GMViewController.m */,
+				94BFAA7C1891C19E004E273A /* GMConstants.h */,
+				94BFAA7D1891C19E004E273A /* GMConstants.m */,
 				94BFAA4A1891BF50004E273A /* Images.xcassets */,
 				94BFAA391891BF50004E273A /* Supporting Files */,
 			);
@@ -150,6 +182,29 @@
 				94BFAA5A1891BF50004E273A /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94BFAA671891BFDB004E273A /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				94BFAA681891BFDB004E273A /* JSONKit.h */,
+				94BFAA691891BFDB004E273A /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		94BFAA6A1891BFDB004E273A /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				94BFAA6B1891BFDB004E273A /* base64.c */,
+				94BFAA6C1891BFDB004E273A /* base64.h */,
+				94BFAA6D1891BFDB004E273A /* NSData+SRB64Additions.h */,
+				94BFAA6E1891BFDB004E273A /* NSData+SRB64Additions.m */,
+				94BFAA6F1891BFDB004E273A /* SocketRocket-Prefix.pch */,
+				94BFAA701891BFDB004E273A /* SRWebSocket.h */,
+				94BFAA711891BFDB004E273A /* SRWebSocket.m */,
+			);
+			path = SocketRocket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,8 +305,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94BFAA741891BFDB004E273A /* NSData+SRB64Additions.m in Sources */,
+				94BFAA7E1891C19E004E273A /* GMConstants.m in Sources */,
+				94BFAA731891BFDB004E273A /* base64.c in Sources */,
 				94BFAA431891BF50004E273A /* GMAppDelegate.m in Sources */,
 				94BFAA491891BF50004E273A /* GMViewController.m in Sources */,
+				94BFAA751891BFDB004E273A /* SRWebSocket.m in Sources */,
+				94BFAA721891BFDB004E273A /* JSONKit.m in Sources */,
 				94BFAA3F1891BF50004E273A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -382,6 +442,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GroupMe-iOS-SDK/GroupMe-iOS-SDK-Prefix.pch";
 				INFOPLIST_FILE = "GroupMe-iOS-SDK/GroupMe-iOS-SDK-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -395,6 +456,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GroupMe-iOS-SDK/GroupMe-iOS-SDK-Prefix.pch";
 				INFOPLIST_FILE = "GroupMe-iOS-SDK/GroupMe-iOS-SDK-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
